@@ -10,7 +10,7 @@ def call(body) {
         deleteDir()
 
         stage('Checkout') {
-            echo("Chkout project")
+            echo("Chkout project ${config.projectName}")
         }
 
     }
